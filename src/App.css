@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* GLOBALES */
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  width: 450px;
+  height: 450px;
+  background-color: #E2EFF3;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container {
+  display: flex
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.fa-solid,
+span,
+h3,
+h2 {
+  color: #4f3391;
+  font-size: 1.3rem;
+  font-weight: 700;
+
+}
+
+.btn {
+  background-color: #7A40E7;
+  border: none;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #4f3391;
+}
+
+li {
+  list-style: none;
+  font-weight: bold;
+}
+
+button {
+  margin: 0 auto;
+}
